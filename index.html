@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Choose Your Fighter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Choose Your Fighter</h1>
+  <div class="fighter-grid">
+    <div class="fighter" onclick="selectFighter('My Dude')">
+      <img src="my-dude.png" alt="My Dude" />
+      <p>My Dude</p>
+    </div>
+    <div class="fighter" onclick="selectFighter('Link')">
+      <img src="link.png" alt="Link" />
+      <p>Link</p>
+    </div>
+    <div class="fighter" onclick="selectFighter('Samus')">
+      <img src="samus.png" alt="Samus" />
+      <p>Samus</p>
+    </div>
+    <div class="fighter" onclick="selectFighter('Mega Man')">
+      <img src="megaman.png" alt="Mega Man" />
+      <p>Mega Man</p>
+    </div>
+    <div class="fighter" onclick="selectFighter('???')">
+      <img src="secret.png" alt="???" />
+      <p>???</p>
+    </div>
+  </div>
+
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
