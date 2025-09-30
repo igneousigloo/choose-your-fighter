@@ -1,4 +1,5 @@
 function showDetails(name) {
+  if (!name || typeof name !== 'string' || !fighterInfo[name]) return;
   // Clear previously selected fighters
   const allFighters = document.querySelectorAll('.fighter');
   allFighters.forEach(fighter => fighter.classList.remove('active'));
