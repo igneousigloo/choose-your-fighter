@@ -9,26 +9,90 @@
 <body>
   <h1>Choose Your Fighter</h1>
   <div class="fighter-grid">
-    <div class="fighter" onclick="selectFighter('My Dude')">
-      <img src="my-dude.png" alt="My Dude" />
-      <p>My Dude</p>
-    </div>
-    <div class="fighter" onclick="selectFighter('Link')">
-      <img src="link.png" alt="Link" />
-      <p>Link</p>
-    </div>
-    <div class="fighter" onclick="selectFighter('Samus')">
-      <img src="samus.png" alt="Samus" />
-      <p>Samus</p>
-    </div>
-    <div class="fighter" onclick="selectFighter('Mega Man')">
-      <img src="megaman.png" alt="Mega Man" />
-      <p>Mega Man</p>
-    </div>
-    <div class="fighter" onclick="selectFighter('Oregon Trail Oxen')">
-      <img src="secret.png" alt="Oregon Trail Oxen" />
-      <p>Oregon Trail Oxen</p>
-    </div>
+    <div class="fighter" onclick="showDetails('My Dude')">
+<img src="my-dude.png" alt="My Dude">
+<p class="name">My Dude</p>
+<p class="tagline">"Let’s goooooo...!"</p>
+<p class="quote">Idle: "Just because you can, doesn't mean you should!"</p>
+<p class="move">Power Move: Pixel Pummel</p>
+</div>
+    <div class="fighter" onclick="showDetails('Link')">
+<img src="link.png" alt="Link">
+<p class="name">Link</p>
+<p class="tagline">"TriForce Titan Slayer"</p>
+<p class="quote">Idle: "It's dangerous to go alone! Take this!"</p>
+<p class="move">Power Move: Master Sword Melee</p>
+</div>
+    <div class="fighter" onclick="showDetails('Samus')">
+<img src="samus.png" alt="Samus">
+<p class="name">Samus</p>
+<p class="tagline">"The Intergalactic Bountyhunter"</p>
+<p class="quote">Idle: "But among the stars, there is one light that burns brighter than all others."</p>
+<p class="move">Power Move: Arm Cannon Darkburst</p>
+</div>
+    <div class="fighter" onclick="showDetails('Mega Man')">
+<img src="megaman.png" alt="Mega Man">
+<p class="name">Mega Man</p>
+<p class="tagline">"X Zero ZX Legends"</p>
+<p class="quote">Idle: "Overclocked and under control."</p>
+<p class="move">Power Move: Photon Barrage</p>
+</div>
+    <div class="fighter" onclick="showDetails('Oregon Trail Oxen')">
+<img src="secret.png" alt="OT Oxen">
+<p class="name">Oregon Trail Oxen</p>
+<p class="tagline">"Head 'em up and move 'em out!"</p>
+<p class="quote">Idle: "You have died of dysentery."</p>
+<p class="move">Power Move: Ft. Laramie Stampede</p>
+</div>
+    <div class="fighter" onclick="showDetails('Shana')">
+<img src="SElkins.png" alt="Shana">
+<p class="name">Shana</p>
+<p class="tagline">"The Brew & Bake Brawler"</p>
+<p class="quote">Idle: "Rise... and grind."</p>
+<p class="move">Power Move: Sourdough Slam</p>
+</div>
+    <div class="fighter" onclick="showDetails('Lisa')">
+<img src="LSagona.png" alt="Lisa">
+<p class="name">Lisa</p>
+<p class="tagline">"The Buffalo Barrager"</p>
+<p class="quote">Idle: "Game plan? Smash tables."</p>
+<p class="move">Power Move: Bills Blitz</p>
+</div>
+    <div class="fighter" onclick="showDetails('Tim')">
+<img src="TAllen.png" alt="Tim">
+<p class="name">Tim</p>
+<p class="tagline">"The Taylormade Man"</p>
+<p class="quote">Idle: "Grip it. Rip it. Deliver it."</p>
+<p class="move">Power Move: Qi35 Fade Slicer</p>
+</div>
+    <div class="fighter" onclick="showDetails('Benjie')">
+<img src="BYoung.png" alt="Benjie">
+<p class="name">Benjie</p>
+<p class="tagline">"The Gamecock Guardian"</p>
+<p class="quote">Idle: "SEC speed. District precision."</p>
+<p class="move">Power Move: Garnet Smash</p>
+</div>
+    <div class="fighter" onclick="showDetails('Mario')">
+<img src="SuperMario.png" alt="Mario">
+<p class="name">Mario</p>
+<p class="tagline">"The Coinbox Crusher"</p>
+<p class="quote">Idle: "Wahoo? No. Wreckage."</p>
+<p class="move">Power Move: Overhead Coin Punch</p>
+</div>
+    <div class="fighter" onclick="showDetails('Donkey Kong')">
+<img src="DonkeyKong.png" alt="Donkey Kong">
+<p class="name">Donkey Kong</p>
+<p class="tagline">"The Flaming Barrel Fiend"</p>
+<p class="quote">Idle: "Roar, lift, yeet."</p>
+<p class="move">Power Move: Inferno Toss</p>
+</div>
+    <div class="fighter" onclick="showDetails('Mystery')">
+<img src="mystery.png" alt="???">
+<p class="name">???</p>
+<p class="tagline">"The Hidden Challenger"</p>
+<p class="quote">Idle: "Access denied... for now."</p>
+<p class="move">Power Move: Classified</p>
+</div>
   </div>
 
   <div id="result"></div>
