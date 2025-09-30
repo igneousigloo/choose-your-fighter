@@ -40,7 +40,54 @@ function showDetails(name) {
       quote: "Idle: “But among the stars, there is one light that burns brighter than all others.”",
       move: "Power Move: Arm Cannon Darkburst"
     },
-    // Add all your other characters here, matching the pattern...
+    "Mega Man": {
+      img: "megaman.png",
+      tagline: "“X Zero ZX Legends”",
+      quote: "Idle: “Overclocked and under control.”",
+      move: "Power Move: Photon Barrage"
+    },
+    "Oregon Trail Oxen": {
+      img: "secret.png",
+      tagline: "Head 'em up and move 'em out!",
+      quote: "Idle: “You have died of dysentery.”",
+      move: "Power Move: Ft. Laramie Stampede"
+    },
+    "Shana": {
+      img: "SElkins.png",
+      tagline: "The Brew & Bake Brawler",
+      quote: "Idle: “Rise... and grind.”",
+      move: "Power Move: Sourdough Slam"
+    },
+    "Lisa": {
+      img: "LSagona.png",
+      tagline: "The Buffalo Barrager",
+      quote: "Idle: “Game plan? Smash tables.”",
+      move: "Power Move: Bills Blitz"
+    },
+    "Tim": {
+      img: "TAllen.png",
+      tagline: "The Taylormade Man",
+      quote: "Idle: “Grip it. Rip it. Deliver it.”",
+      move: "Power Move: Qi35 Fade Slicer"
+    },
+    "Benjie": {
+      img: "BYoung.png",
+      tagline: "The Gamecock Guardian",
+      quote: "Idle: “SEC speed. District precision.”",
+      move: "Power Move: Garnet Smash"
+    },
+    "Mario": {
+      img: "SuperMario.png",
+      tagline: "The Coinbox Crusher",
+      quote: "Idle: “Wahoo? No. Wreckage.”",
+      move: "Power Move: Overhead Coin Punch"
+    },
+    "Donkey Kong": {
+      img: "DonkeyKong.png",
+      tagline: "The Flaming Barrel Fiend",
+      quote: "Idle: “Roar, lift, yeet.”",
+      move: "Power Move: Inferno Toss"
+    },
     "???": {
       img: "mystery.png",
       tagline: "“The Hidden Challenger”",
