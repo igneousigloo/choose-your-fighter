@@ -79,3 +79,17 @@ h1 {
   font-weight: bold;
   margin: 0.3rem 0;
 }
+
+.fighter p.name,
+.fighter p.tagline,
+.fighter p.quote,
+.fighter p.move {
+  display: none;
+}
+
+.fighter.active p.name,
+.fighter.active p.tagline,
+.fighter.active p.quote,
+.fighter.active p.move {
+  display: block;
+}
