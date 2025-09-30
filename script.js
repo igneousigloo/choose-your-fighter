@@ -17,74 +17,74 @@ function showDetails(name) {
   const fighterInfo = {
     "My Dude": {
       img: "my-dude.png",
-      tagline: "“Let’s goooooo...!”",
-      quote: "“Just because you can, doesn't mean you should!”",
+      tagline: "Let’s goooooo...!",
+      quote: "Just because you can, doesn't mean you should!",
       move: "Power Move: Pixel Pummel"
     },
     "Link": {
       img: "link.png",
-      tagline: "“TriForce Titan Slayer”",
-      quote: "“It's dangerous to go alone! Take this!”",
+      tagline: "TriForce Titan Slayer",
+      quote: "It's dangerous to go alone! Take this!",
       move: "Power Move: Master Sword Melee"
     },
     "Samus": {
       img: "samus.png",
-      tagline: "“The Intergalactic Bountyhunter”",
-      quote: "“But among the stars, there is one light that burns brighter than all others.”",
+      tagline: "The Intergalactic Bountyhunter",
+      quote: "But among the stars, there is one light that burns brighter than all others.",
       move: "Power Move: Arm Cannon Darkburst"
     },
     "Mega Man": {
       img: "megaman.png",
-      tagline: "“X Zero ZX Legends”",
-      quote: "“Overclocked and under control.”",
+      tagline: "X Zero ZX Legends",
+      quote: "Overclocked and under control.",
       move: "Power Move: Photon Barrage"
     },
     "Oregon Trail Oxen": {
       img: "secret.png",
       tagline: "Wagons East! Err, West!",
-      quote: "“You have died of dysentery.”",
+      quote: "You have died of dysentery.",
       move: "Power Move: Ft. Laramie Stampede"
     },
     "Shana": {
       img: "SElkins.png",
       tagline: "The Brew & Bake Brawler",
-      quote: "“Rise... and grind.”",
+      quote: "Rise... and grind.",
       move: "Power Move: Sourdough Slam"
     },
     "Lisa": {
       img: "LSagona.png",
       tagline: "The Buffalo Barrager",
-      quote: "“Game plan? Smash tables.”",
+      quote: "Game plan? Smash tables.",
       move: "Power Move: Bills Blitz"
     },
     "Tim": {
       img: "TAllen.png",
       tagline: "The Taylormade Man",
-      quote: "“Grip it. Rip it. Deliver it.”",
+      quote: "Grip it. Rip it. Deliver it.",
       move: "Power Move: Qi35 Fade Slicer"
     },
     "Benjie": {
       img: "BYoung.png",
       tagline: "The Gamecock Guardian",
-      quote: "“SEC speed. District precision.”",
+      quote: "SEC speed. District precision.",
       move: "Power Move: Garnet Smash"
     },
     "Mario": {
       img: "SuperMario.png",
       tagline: "The Coinbox Crusher",
-      quote: "“Wahoo? No. Wreckage.”",
+      quote: "Wahoo? No. Wreckage.",
       move: "Power Move: Overhead Coin Punch"
     },
     "Donkey Kong": {
       img: "DonkeyKong.png",
       tagline: "The Flaming Barrel Fiend",
-      quote: "“Roar, lift, yeet.”",
+      quote: "Roar, lift, yeet.",
       move: "Power Move: Inferno Toss"
     },
     "Mystery": {
       img: "mystery.png",
-      tagline: "“The Hidden Challenger”",
-      quote: "“Access denied... for now.”",
+      tagline: "The Hidden Challenger",
+      quote: "Access denied... for now.",
       move: "Power Move: Classified"
     }
   };
