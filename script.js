@@ -80,7 +80,7 @@ function showDetails(name) {
       quote: "Idle: “Roar, lift, yeet.”",
       move: "Power Move: Inferno Toss"
     },
-    "???": {
+    "Mystery": {
       img: "mystery.png",
       tagline: "“The Hidden Challenger”",
       quote: "Idle: “Access denied... for now.”",
