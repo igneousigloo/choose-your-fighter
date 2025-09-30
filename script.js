@@ -1,4 +1,5 @@
 function showDetails(name) {
+  console.log("Clicked name:", name);  // DEBUG
   if (!name || typeof name !== 'string' || !fighterInfo[name]) return;
   // Clear previously selected fighters
   const allFighters = document.querySelectorAll('.fighter');
@@ -7,6 +8,8 @@ function showDetails(name) {
   // Find the selected fighter card
   const selectedFighter = Array.from(allFighters).find(f =>
     f.querySelector('.name').textContent === name
+  console.log("Clicked fighter name:", name);
+                                                     
   );
   if (selectedFighter) {
     selectedFighter.classList.add('active');
@@ -88,6 +91,7 @@ function showDetails(name) {
       move: "Power Move: Classified"
     }
   };
+  console.log("Available fighter keys:", Object.keys(fighterInfo));
 
   const info = fighterInfo[name];
   if (!info) return;
