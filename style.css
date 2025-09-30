@@ -136,7 +136,7 @@ h1 {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 #fighter-details {
   position: fixed;
@@ -164,5 +164,5 @@ h1 {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
