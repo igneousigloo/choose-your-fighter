@@ -53,3 +53,29 @@ h1 {
   color: #ffb86c;
   text-shadow: 1px 1px 0 #000;
 }
+
+.fighter .name {
+  color: #50fa7b;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.fighter .tagline {
+  color: #ffb86c;
+  font-size: 0.7rem;
+  margin: 0.3rem 0;
+}
+
+.fighter .quote {
+  color: #bd93f9;
+  font-size: 0.6rem;
+  font-style: italic;
+  margin: 0.3rem 0;
+}
+
+.fighter .move {
+  color: #ff5555;
+  font-size: 0.65rem;
+  font-weight: bold;
+  margin: 0.3rem 0;
+}
