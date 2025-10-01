@@ -76,7 +76,7 @@ function showDetails(name) {
     "Mario": {
       img: "SuperMario.png",
       tagline: "The Coinbox Crusher",
-      quote: "Wahoo? No. Wreckage.",
+      quote: "Its'a me, Mario!",
       move: "Overhead Coin Punch"
     },
     "Donkey Kong": {
