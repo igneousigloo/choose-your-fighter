@@ -9,12 +9,15 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById('close-btn').addEventListener('click', () => {
-    document.getElementById('fighter-details').classList.remove('show');
+    const fighterDetails = document.getElementById('fighter-details');
+fighterDetails.classList.remove('show');
+fighterDetails.classList.add('hidden');
   });
 });
 
 function showDetails(name) {
-  const fighterInfo = {
+  const fighterDetails = document.getElementById('fighter-details');
+
     "My Dude": {
       img: "my-dude.png",
       tagline: "“Let’s goooooo...!”",
@@ -87,6 +90,9 @@ function showDetails(name) {
       quote: "Access denied... for now.",
       move: "Classified"
     }
+  fighterDetails.classList.remove('hidden');
+  fighterDetails.classList.add('show');
+}
   };
 
   const info = fighterInfo[name];
