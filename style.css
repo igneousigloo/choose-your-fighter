@@ -39,6 +39,9 @@ h1 {
   width: 100px;
   height: 100px;
   image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;  /* For Firefox */
+  image-rendering: -webkit-optimize-contrast; /* Safari fallback */
 }
 
 .fighter p {
