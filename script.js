@@ -9,15 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById('close-btn').addEventListener('click', () => {
-    const fighterDetails = document.getElementById('fighter-details');
-fighterDetails.classList.remove('show');
-fighterDetails.classList.add('hidden');
-  });
+  const fighterDetails = document.getElementById('fighter-details');
+  fighterDetails.classList.remove('show');
+  fighterDetails.classList.add('hidden');
+});
 });
 
 function showDetails(name) {
   const fighterDetails = document.getElementById('fighter-details');
-
+  fighterDetails.classList.remove('hidden');
+  fighterDetails.classList.add('show');
+  
     "My Dude": {
       img: "my-dude.png",
       tagline: "“Let’s goooooo...!”",
