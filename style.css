@@ -215,3 +215,16 @@ h1 {
 #close-btn:hover {
   background-color: #ff1c1c;
 }
+
+#fighter-details.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -40%);
+  transition: all 0.3s ease;
+}
+
+#fighter-details.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%);
+}
