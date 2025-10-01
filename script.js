@@ -41,7 +41,7 @@ function showDetails(name) {
     },
     "Oregon Trail Oxen": {
       img: "secret.png",
-      tagline: "Head 'em up and move 'em out!",
+      tagline: "Wagons East! Err, I mean West!",
       quote: "You have died of dysentery.",
       move: "Ft. Laramie Stampede"
     },
