@@ -166,3 +166,66 @@ h1 {
 .hidden {
   display: none !important;
 }
+#fighter-details {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid #ff79c6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  z-index: 999;
+  width: 90%;
+  max-width: 600px;
+  color: #f1f1f1;
+  text-align: center;
+  box-shadow: 0 0 10px #ff79c6;
+  font-size: 1.2rem;
+  transition: opacity 0.3s ease;
+}
+
+#fighter-details .details-content p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #f8f8f2;
+}
+
+#fighter-details .details-content .name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #50fa7b;
+  text-shadow: 2px 2px #000;
+}
+
+#fighter-details .details-content .tagline {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #8be9fd;
+}
+
+#fighter-details .details-content .move {
+  color: #ffb86c;
+  font-weight: bold;
+}
+
+#fighter-details img {
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated;
+  margin-bottom: 0.75rem;
+}
+
+#close-btn {
+  margin-top: 1rem;
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#close-btn:hover {
+  background-color: #ff4444;
+}
