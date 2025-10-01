@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById('close-btn').addEventListener('click', () => {
-    document.getElementById('fighter-details').classList.add('hidden');
+    document.getElementById('fighter-details').classList.remove('show');
   });
 });
 
