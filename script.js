@@ -17,9 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function showDetails(name) {
   const fighterDetails = document.getElementById('fighter-details');
+
   fighterDetails.classList.remove('hidden');
   fighterDetails.classList.add('show');
-  
+
+  const data = {  
     "My Dude": {
       img: "my-dude.png",
       tagline: "“Let’s goooooo...!”",
