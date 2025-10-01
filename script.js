@@ -18,10 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function showDetails(name) {
   const fighterDetails = document.getElementById('fighter-details');
 
-  fighterDetails.classList.remove('hidden');
-  fighterDetails.classList.add('show');
-
-  const data = {  
+  const fighterInfo = {  
     "My Dude": {
       img: "my-dude.png",
       tagline: "“Let’s goooooo...!”",
@@ -94,14 +91,12 @@ function showDetails(name) {
       quote: "Access denied... for now.",
       move: "Classified"
     }
-  fighterDetails.classList.remove('hidden');
-  fighterDetails.classList.add('show');
-}
   };
 
   const info = fighterInfo[name];
   if (!info) return;
 
+  // Fill modal
   document.getElementById('details-img').src = info.img;
   document.getElementById('details-img').alt = name;
   document.getElementById('details-name').textContent = name;
@@ -109,5 +104,7 @@ function showDetails(name) {
   document.getElementById('details-quote').textContent = `"${info.quote}"`;
   document.getElementById('details-move').textContent = `Power Move: ${info.move}`;
 
-  document.getElementById('fighter-details').classList.remove('hidden');
+  // Show modal
+  fighterDetails.classList.remove('hidden');
+  fighterDetails.classList.add('show');
 }
