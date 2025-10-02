@@ -96,7 +96,19 @@ function showDetails(name) {
       tagline: "The Hidden Challenger",
       quote: "Access denied... for now.",
       move: "Classified"
-    }
+    },
+    "Ginny": {
+      img: "ginny.png",
+      tagline: "The Digital Gatekeeper",
+      quote: "You forgot your password again, didn't you?",
+      move: "Alphanumeric Override"
+    },
+    "Ray": {
+      img: "ray.png",
+      tagline: "The Circuit Sage",
+      quote: "Just give me a soldering iron and a little silence.",
+      move: "Wizardry of Wires"
+    },
   };
 
   const info = fighterInfo[name];
