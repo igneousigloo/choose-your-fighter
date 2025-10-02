@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   allFighters.forEach(fighter => {
     fighter.addEventListener('click', () => {
-      const name = fighter.querySelector('.name').textContent.trim();
+      const name = fighter.querySelector('.name').textContent.trim().replace(/\s+/g, ' ');
       showDetails(name);
     });
   });
