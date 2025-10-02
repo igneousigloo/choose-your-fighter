@@ -85,6 +85,12 @@ function showDetails(name) {
       quote: "Roar, lift, yeet.",
       move: "Inferno Toss"
     },
+    "Sabella": {
+      img: "sabella.png",
+      tagline: "Cap'n Chaos",
+      quote: "Who touched my inventory list?!",
+      move: "Hardware Supply Storm"
+    },
     "???": {
       img: "mystery.png",
       tagline: "The Hidden Challenger",
