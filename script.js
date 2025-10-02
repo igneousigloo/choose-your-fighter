@@ -108,7 +108,7 @@ function showDetails(name) {
       tagline: "The Circuit Sage",
       quote: "Just give me a soldering iron and a little silence.",
       move: "Wizardry of Wires"
-    },
+    }
   };
 
   const info = fighterInfo[name];
